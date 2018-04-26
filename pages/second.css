@@ -1,0 +1,54 @@
+body{
+    background-image: url("../data/img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.yellowBlock{
+    border: 2px solid #FFCC00;
+    color:#FFCC00;
+    background-color: rgba(0,0,0,0);
+    padding: 2px 3px 2px 3px;
+    font-family:arial;
+}
+.yellowBlock:hover{
+    color:black;
+    background-color: #FFCC00;
+}
+.py-image{
+    filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.py-image:hover{
+     filter: grayscale(00%);
+    -moz-filter: grayscale(00%);
+    -webkit-filter: grayscale(00%);
+}
+
+.tableBorder{
+    border: 2px solid #FFCC00;
+}
+.tableBG{
+    color:black;
+    font-family:arial;
+    background-color: #FFCC00;
+}
+.tableInvert{
+    color:#FFCC00;
+    background-color:rgba(0,0,0,0);
+}
+.invertBlock{
+    border: 2px solid black;
+    color:black;
+    background-color: rgba(0,0,0,0);
+    padding: 2px 3px 2px 3px;
+    font-family:arial;
+}
+.invertBlock:hover{
+    color:#FFCC00;
+    background-color: black;
+}
